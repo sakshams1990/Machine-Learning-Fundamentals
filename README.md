@@ -12,6 +12,6 @@ Apart from train-test split, cross validation is also used in tuning parameters 
 
 ### Confusion Matrix
 
-https://miro.medium.com/max/712/1*Z54JgbS4DUwWSknhDCvNTQ.png
+![alt text](https://miro.medium.com/max/712/1*Z54JgbS4DUwWSknhDCvNTQ.png)
 
 
