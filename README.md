@@ -88,5 +88,7 @@ Variance is the amount that the estimate of the target function will change if d
 
 We need to find a find a sweet spot between simple and complicated models using **regularisation , bagging and boosting**.
 
+![alt text](https://4.bp.blogspot.com/-AQbrw12zcFk/W_UsdhI6exI/AAAAAAAAAgU/kQj241wAb-0dPVejsILWyNSln2MRkj5cgCLcBGAs/s400/8692a57c-d9bf-4d3a-9fef-8b2e99fda5a1.jpg)
+
 
 
