@@ -2,7 +2,7 @@
 
 What is Machine Learning ?
 
-**Machine Learning** can be defined as field of study that gives computers to learn without being explicitly programmed.
+**Machine Learning** can be defined as field of study that gives computers to learn without being explicitly programmed. In basic terms, Machine Learing 
 
 # Fundamentals of Machine Learning
 ## Cross Validation
@@ -20,24 +20,28 @@ It is extremely useful for measuring Recall, Precision, Specificity, Accuracy an
 Let us take an example with reference to  Heart Disease analogy.
 
 **True Positive** 
-
 Actual - The patient is suffering from heart disease.
 Predicted - The patient is predicted to be suffering from heart disease.
 
 **True Negative** 
-
 Actual - The patient is not suffering from heart disease.
 Predicted - The patient is predicted not to be suffering from heart disease.
 
 **False Positive** 
-
 Actual - The patient is not suffering from heart disease.
 Predicted - The patient is predicted to be suffering from heart disease.
 
 **False Negative** 
-
 Actual - The patient is suffering from heart disease.
 Predicted - The patient is predicted not to be suffering from heart disease.
+
+**Sensitivity**
+Sensitivity = TP/(TP+FN)
+
+**Specificity**
+Specificity = TN/(TN+FP)
+
+## Bias and Variance
 
 
 
