@@ -64,6 +64,8 @@ Out of all the positive classes we have predicted correctly, how many are actual
 
 **Accuracy**
 
+Accuracy = (TP+TN)/(TP+FP+FN+TN)
+
 Out of all the 4 combinations of actual and predicted, how many were predicted correctly. This is expected to be as high as possible.
 
 **F-measure**
@@ -74,7 +76,17 @@ It is difficult to compare 2 models solely based on recall and precision. Hence 
 
 ## Bias and Variance
 
+**Bias** 
 
+Bias are the simplifying assumptions made by a model on the to make the target function to be learnt easier. Bias has it own ego, it has nothing to do with data. High bias leads to underfitting of the data because it will assumptions regardless of the data.
+
+**Variance** 
+
+Variance is the amount that the estimate of the target function will change if different training data was used.Variance refers to the  algorithm's sensitivity to the specific sets of training data, that is how much the prediction of machine learning model changes if you train on different training datasets. High variance can lead to overfitting of the model.
+
+**Bias-Variance Tradeoff**
+
+We need to find a find a sweet spot between simple and complicated models using **regularisation , bagging and boosting**.
 
 
 
