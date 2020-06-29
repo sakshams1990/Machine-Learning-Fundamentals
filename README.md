@@ -56,6 +56,8 @@ Specificity = TN/(TN+FP)
 
 Out of all the negative classes, how much we predicted correctly.
 
+*Sensitivity and Specificity are inversely proportional to each other.
+
 **Precision**
 
 Precision = TP/(TP+FP)
@@ -90,5 +92,14 @@ We need to find a find a sweet spot between simple and complicated models using 
 
 ![alt text](https://4.bp.blogspot.com/-AQbrw12zcFk/W_UsdhI6exI/AAAAAAAAAgU/kQj241wAb-0dPVejsILWyNSln2MRkj5cgCLcBGAs/s400/8692a57c-d9bf-4d3a-9fef-8b2e99fda5a1.jpg)
 
+## ROC - AUC Curve
+
+**Receiver Operator Characteristic** is a graph plotted between True Positive Rate & False Positive Rate.
+
+![alt text](https://miro.medium.com/max/722/1*pk05QGzoWhCgRiiFbz-oKQ.png)
+
+ROC is the probability curve which is plotted by taking different probability threshold into consideration.
+
+**Area Under Curve** represents degree or measure of separability. It tells how much model is capable of distinguishing between classes. Higher the AUC, better the model is at predicting 0s as 0s and 1s as 1s.When AUC is approximately 0, model is actually reciprocating the classes. It means, model is predicting negative class as a positive class and vice versa.
 
 
